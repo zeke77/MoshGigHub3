@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoshGigHub3", "MoshGigHub3\MoshGigHub3.csproj", "{E20409CF-3F8E-4817-9037-F3FEFFBFF7B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoshGigHub3.Tests", "MoshGigHub3.Tests\MoshGigHub3.Tests.csproj", "{18C59ADF-9908-4F68-850C-A4CFCA17B4EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E20409CF-3F8E-4817-9037-F3FEFFBFF7B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E20409CF-3F8E-4817-9037-F3FEFFBFF7B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E20409CF-3F8E-4817-9037-F3FEFFBFF7B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E20409CF-3F8E-4817-9037-F3FEFFBFF7B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C59ADF-9908-4F68-850C-A4CFCA17B4EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C59ADF-9908-4F68-850C-A4CFCA17B4EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C59ADF-9908-4F68-850C-A4CFCA17B4EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C59ADF-9908-4F68-850C-A4CFCA17B4EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE199C98-DBE5-46C5-980D-A7F6E182CA4F}
+	EndGlobalSection
+EndGlobal
