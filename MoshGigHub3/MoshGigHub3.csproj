@@ -183,8 +183,19 @@
     <Compile Include="Migrations\201908011907334_initialmodel.Designer.cs">
       <DependentUpon>201908011907334_initialmodel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201908011927494_creategigtable.cs" />
+    <Compile Include="Migrations\201908011927494_creategigtable.Designer.cs">
+      <DependentUpon>201908011927494_creategigtable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908011950072_overrideconbventionsforgigsandgenres.cs" />
+    <Compile Include="Migrations\201908011950072_overrideconbventionsforgigsandgenres.Designer.cs">
+      <DependentUpon>201908011950072_overrideconbventionsforgigsandgenres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
+    <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\Gig.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -266,6 +277,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201908011907334_initialmodel.resx">
       <DependentUpon>201908011907334_initialmodel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908011927494_creategigtable.resx">
+      <DependentUpon>201908011927494_creategigtable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908011950072_overrideconbventionsforgigsandgenres.resx">
+      <DependentUpon>201908011950072_overrideconbventionsforgigsandgenres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
