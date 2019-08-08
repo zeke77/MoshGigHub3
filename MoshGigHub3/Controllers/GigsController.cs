@@ -33,6 +33,13 @@ namespace MoshGigHub3.Controllers
         public ActionResult Create(GigFormViewModel viewModel)
         {
 
+            if (!ModelState.IsValid)
+            {
+                viewModel.Genres = _context.Genres.OrderBy(g => g.Name).ToList();
+                return View("Create", viewModel);
+
+            }
+
             
             //var artist = _context.Users.Single(u => u.Id == artistID);
             //var genre = _context.Genres.Single(g => g.Id == viewModel.Genre);
@@ -40,7 +47,7 @@ namespace MoshGigHub3.Controllers
             var gig = new Gig
             {
                 ArtistId = User.Identity.GetUserId(),
-                DateTime = viewModel.DateTime,
+                DateTime = viewModel.GetDateTime(),
                 GenreId = viewModel.Genre,
                 Venue = viewModel.Venue
             };
