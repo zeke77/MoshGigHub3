@@ -18,8 +18,14 @@
 </div>
 
 <div class="form-group">
+    @{ 
+        DateTime today = DateTime.Now ;
+        DateTime tomorrow = today.AddDays(1);
+        string nextday = tomorrow.ToString("d MMM yyyy");
+
+    }
     @Html.LabelFor(m => m.Date)
-    @Html.TextBoxFor(m => m.Date, new { @class = "form-control",placeholder = "eg 1 Jan 2019" })
+    @Html.TextBoxFor(m => m.Date, new { @class = "form-control",placeholder = nextday })
     @Html.ValidationMessageFor(m => m.Date)
 </div>
 

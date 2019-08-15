@@ -11,7 +11,7 @@ namespace MoshGigHub3.ViewModels
         public string Venue { get; set; }
 
         [Required]
-        [FutureDate]
+        [FutureDate(ErrorMessage = "Date must be in the future!")]
         public string Date { get; set; }
 
         [Required]
