@@ -7,6 +7,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using MoshGigHub3.Models;
+using MoshGigHub3.ViewModels;
 
 namespace MoshGigHub3.Controllers
 {
